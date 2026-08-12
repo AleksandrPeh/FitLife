@@ -1,5 +1,5 @@
 # Проект FitLife - MVP версия 1.0
-WATER_PER_KG = 30
+daily_water_ml_per_kg = 30
 ml_in_liter = 1000
 
 print("Добрый день, давай знакомиться?")
@@ -49,7 +49,7 @@ while True:
 
 bmi = user_weight / (user_height ** 2)
 
-water_milliliters = user_weight * WATER_PER_KG
+water_milliliters = user_weight * daily_water_ml_per_kg
 water_liters = water_milliliters / ml_in_liter
 
 print()
